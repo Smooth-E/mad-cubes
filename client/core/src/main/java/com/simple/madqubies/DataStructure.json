@@ -1,0 +1,22 @@
+{
+  "name": "Admin",
+  "inventory": {
+    "12ACF": {
+      "item_type": 1,
+      "chars": [
+        {
+          "id": 1,
+          "value": 12.5,
+          "modifier": 1.5
+        }
+      ],
+      "item_lvl": 21,
+      "max_lvl": -1
+    }
+  },
+  "CharacterLvl": 10,
+  "classic_score": 542,
+  "classic_time": 1542,
+  "surviving_score": 512,
+  "surviving_time": 1241
+}

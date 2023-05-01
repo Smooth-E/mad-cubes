@@ -1,0 +1,20 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+	api "com.badlogicgames.gdx:gdx:$gdxVersion"
+	api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+	api "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
+
+	/*
+	implementation ('io.socket:socket.io-client:2.0.0') {
+		// excluding org.json which is provided by Android
+		exclude group: 'org.json', module: 'json'
+	}
+	*/
+
+	compile "com.esotericsoftware:kryonet:2.22.0-RC1"
+
+	implementation "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+
+}
